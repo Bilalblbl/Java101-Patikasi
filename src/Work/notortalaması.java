@@ -30,7 +30,7 @@ public class notortalaması {
         double sonuc = toplam / 6 ;
 
         System.out.println("Ders Ortlamanız " + (sonuc) );
-        boolean durum = sonuc >= 60;
+        boolean durum = sonuc >= 50;
         String str = durum ? "Sınıfı Geçtiniz." : "Sınıfta Kaldınız.";
 
         System.out.println("Sınıf Durumunuz ;  " + str);
