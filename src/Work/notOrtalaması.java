@@ -2,7 +2,7 @@ package Work;
 
 import java.util.Scanner;
 
-public class notortalaması {
+public class notOrtalaması {
     public static void main(String[] args) {
         Scanner not = new Scanner(System.in);
 
