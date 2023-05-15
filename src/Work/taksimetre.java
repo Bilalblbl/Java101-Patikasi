@@ -3,7 +3,7 @@ package Work;
 import java.util.Scanner;
 public class taksimetre {
     public static void main(String[] args) {
-        
+
         double a,toplam;
 
         Scanner input = new Scanner(System.in);
