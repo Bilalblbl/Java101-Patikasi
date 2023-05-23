@@ -1,12 +1,11 @@
-package Work;
+package Temelkavramlarvedeğişkenler;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Manavkasa {
     public static void main(String[] args) {
 
-        double a, b, c, d, e ,tutar=0.00f;
+        double a, b, c, d, e, tutar = 0.00f;
 
 
         Scanner input = new Scanner(System.in);
@@ -28,7 +27,7 @@ public class Manavkasa {
 
         tutar = (a * 2.14) + (b * 3.67) + (c * 1.11) + (d * 0.95) + (e * 5.00);
 
-        System.out.println("Toplam Alışveriş Tutarı : " +tutar);
+        System.out.println("Toplam Alışveriş Tutarı : " + tutar);
 
     }
 }

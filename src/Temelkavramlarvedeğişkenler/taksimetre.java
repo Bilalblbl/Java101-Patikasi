@@ -1,4 +1,4 @@
-package Work;
+package Temelkavramlarvedeğişkenler;
 
 import java.util.Scanner;
 public class taksimetre {
