@@ -2,7 +2,7 @@ package Döngüler;
 
 import java.util.Scanner;
 
-public class teksayilaribulma {
+public class çiftve4katlarıtoplama {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
