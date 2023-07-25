@@ -15,7 +15,7 @@ public class çiftve4katlarıtoplama {
             if (a % 2 == 0 || a % 4 == 0) {
                 b += a;
             }
-        }while (a % 2 == 0); System.out.println (a + " Tek sayı olduğundan işlem sonlandırıldı.");;
+        }while (a % 2 == 0); System.out.println (a + " Tek sayı olduğundan işlem sonlandırıldı.");
 
         System.out.println("Girilen Çift Sayıların Toplamı = " + b);
     }
