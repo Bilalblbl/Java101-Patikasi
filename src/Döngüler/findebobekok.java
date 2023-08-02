@@ -36,7 +36,7 @@ public class findebobekok {
         while (k >= 1) {
             if (n1 % k == 0 && n2 % k == 0) {
                 ebob = k;
-                System.out.println("Girilen rakamların Ebob'u : " + ebob);
+                System.out.println("Girilen rakamların Ekok'u : " + ebob);
                 break;
             }
             k--;
@@ -45,7 +45,7 @@ public class findebobekok {
             while (k >= 1) {
                 if (n1 % k == 0 && n2 % k == 0) {
                     ebob = k;
-                    System.out.println("Girilen rakamların Ebob'u : " + ebob);
+                    System.out.println("Girilen rakamların Ekok'u : " + ebob);
                     break;
                 }
                 k--;
@@ -57,7 +57,7 @@ public class findebobekok {
 
         while (i <= (n1*n2)){
             if (i % n1 == 0 && i % n2 == 0){
-                System.out.println("Girilen rakamların Ekok'u : " + i);
+                System.out.println("Girilen rakamların Ebob'u : " + i);
                 break;
             }
             i++;
