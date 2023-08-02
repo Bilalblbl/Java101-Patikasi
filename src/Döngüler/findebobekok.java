@@ -52,8 +52,15 @@ public class findebobekok {
             }
         }
             System.out.println();
-            ekok = (n1 * n2) / ebob;
-            System.out.println("Girilen rakamların Ekok'u : " + ekok);
+//            ekok = (n1 * n2) / ebob;
+//            System.out.println("Girilen rakamların Ekok'u : " + ekok);
 
+        while (i <= (n1*n2)){
+            if (i % n1 == 0 && i % n2 == 0){
+                System.out.println("Girilen rakamların Ekok'u : " + i);
+                break;
+            }
+            i++;
+        }
     }
 }
