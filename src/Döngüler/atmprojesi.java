@@ -3,10 +3,13 @@ package Döngüler;
 import java.util.Scanner;
 
 public class atmprojesi {
+    static String kuser = null;
+    static String kpass = null;
+    static int totalcash = 0;
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        String user, pass, newuser, newpass, kuser = null, kpass = null;
+        String user, pass, newuser, newpass;
         int a = 3, oprt, b = 5;
         boolean isExit = false;
 
@@ -65,6 +68,7 @@ public class atmprojesi {
 
                     kuser = newuser;
                     kpass = newpass;
+                    totalcash = 0;
                     System.out.println("\nKaydınız alındı. Giriş Yapabilirsiniz\n");
 
                     break;
@@ -80,7 +84,7 @@ public class atmprojesi {
 
     public static void islemYap() {
         Scanner input = new Scanner(System.in);
-        int secim, cash1, cash2, cash3, totalcash = 0, money = 0;
+        int secim, cash1, cash2, cash3, money = 0;
         do {
 
 
@@ -101,7 +105,7 @@ public class atmprojesi {
                         System.out.println("Hesap Bakiyesi : " + totalcash);
                         System.out.print("\nÇekilecek tutar Tutar ; ");
                         money = input.nextInt();
-                        if (money < 0) {
+                        if (money <= 0) {
                             System.out.println("\n0 ve 0'dan küçük tutar girilemez\n");
                         } else if (totalcash >= money) {
                             totalcash -= money;
