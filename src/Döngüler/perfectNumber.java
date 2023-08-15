@@ -16,10 +16,10 @@ public class perfectNumber {
                 total += i;
             }
         }
-       if (total == a){
-           System.out.print(a + " bir mükemmel sayıdır çünkü pozitif tam sayı çarpanları (kalansız bölenleri) olan sayıların toplamı " + total + " olur.");
-       }else {
-           System.out.println(a + " bir mükemmel sayı değildir çünkü pozitif tam sayı çarpanları (kalansız bölenleri) olan sayıların toplamı " + total + " olur.");
-       }
+        if (total == a){
+            System.out.print(a + " bir mükemmel sayıdır çünkü pozitif tam sayı çarpanları (kalansız bölenleri) olan sayıların toplamı " + total + " olur.");
+        }else {
+            System.out.println(a + " bir mükemmel sayı değildir çünkü pozitif tam sayı çarpanları (kalansız bölenleri) olan sayıların toplamı " + total + " olur.");
+        }
     }
 }
