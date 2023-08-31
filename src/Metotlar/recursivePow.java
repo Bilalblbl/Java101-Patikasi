@@ -22,6 +22,5 @@ public class recursivePow {
     System.out.print("Üs Değeri Giriniz : ");
     int üs =  tnum.nextInt();
     f(taban,üs);
-
   }
 }
